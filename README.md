@@ -1,0 +1,1 @@
+0. CSlam is meant to be pluggable into Freengy host by implementing its plugin system
