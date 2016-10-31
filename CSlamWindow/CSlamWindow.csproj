@@ -17,6 +17,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Catel.MVVM.4.5.3\lib\net45\Catel.MVVM.dll</HintPath>
     </Reference>
+    <Reference Include="Freengy.GamePlugin, Version=1.0.6148.20223, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Freengy\Freengy.GamePlugin.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
