@@ -1,17 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows;
+﻿// Created by Laxale 31.10.2016
+//
+//
 
-namespace CSlam
+
+namespace CSlamWindow 
 {
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
-    public partial class App : Application
+    using System.Windows;
+
+
+    public partial class App : Application 
     {
+
     }
 }

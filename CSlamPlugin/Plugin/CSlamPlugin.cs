@@ -3,13 +3,12 @@
 //
 
 
-using System;
-
-
-namespace CSlamPlugin.Plugin 
+namespace CSlam.Plugin 
 {
-    using Freengy.Base;
-    using Freengy.GamePlugin;
+    using System;
+
+    using CSlam.Views;
+
     using Freengy.GamePlugin.Interfaces;
 
 
@@ -18,14 +17,14 @@ namespace CSlamPlugin.Plugin
     /// </summary>
     public class CSlamPlugin : IGamePlugin 
     {
-        public Type ExportedViewType { get; }
+        public Type ExportedViewType { get; } = typeof(MainView);
 
-        public string Name { get; }
+        public string Name => "Sea Slam!";
 
-        public string DisplayedName { get; }
+        public string DisplayedName => "Sea-slaming mosh";
 
-        public Guid Id { get; }
+        public Guid Id { get; } = Guid.NewGuid();
 
-        public string GameIconSource { get; }
+        public string GameIconSource { get; } = null;
     }
 }

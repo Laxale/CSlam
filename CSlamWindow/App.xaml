@@ -1,9 +1,10 @@
-﻿<Application x:Class="CSlam.App"
+﻿<Application x:Class="CSlamWindow.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:CSlam"
              StartupUri="MainWindow.xaml">
+    
     <Application.Resources>
-         
+
     </Application.Resources>
 </Application>

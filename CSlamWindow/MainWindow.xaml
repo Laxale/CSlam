@@ -5,11 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         
         xmlns:local="clr-namespace:CSlam"
-        
+        xmlns:views="clr-namespace:CSlam.Views;assembly=CSlam"
+
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
 
-    <Grid>
-
-    </Grid>
+    <views:MainView />
 </Window>
