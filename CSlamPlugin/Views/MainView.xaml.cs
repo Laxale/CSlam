@@ -5,12 +5,9 @@
 
 namespace CSlam.Views 
 {
-    using Freengy.GamePlugin.Attributes;
-
     using CatelControl = Catel.Windows.Controls.UserControl;
 
 
-    [MainGameView]
     public partial class MainView : CatelControl 
     {
         public MainView()

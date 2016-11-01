@@ -3,11 +3,11 @@
 //
 
 
-using Freengy.Base.ViewModels;
-
-
 namespace CSlam.ViewModels 
 {
+    using Freengy.Base.ViewModels;
+
+
     public class MainViewModel : WaitableViewModel 
     {
         protected override void SetupCommands() 
